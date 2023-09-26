@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "comp3820-digital-health",
+  "private_key_id": "be5b27c74b2d70657c65067b8e83e06e9c34ec6c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDPCOD8kPHyB1Rr\nvbErcnqkn0SV4LTVBdBgZg1z9a2pZJm9ONHa4et9Nm12tmKUA89ln2a8nWDZgTLK\ndp6XvgVtKOkOeNQFtpMcJZ7u/fcJQ9cW6TCqoKGquAcyFnNdfIPUjDF5t5OO0VOG\n9uTRXHoIe6Iamnp+aDVaejb5nXe+ALSYvwU8a8VBr9b0iiALVftZLCwJrF/ObRmH\nwDE6+lsILY3nnoMzR4FMi4QkxJ4OllO1pImXZGMNUM9gKlDO51QRKFWIJRChCMz8\ntZSRP7dau/39Ktr966GNUji6HEVnGg4HjiNo5WKMkRqsKqenBVldx8pq8naf9YP4\ntBx3VmPlAgMBAAECggEAKOuDFoBqhbELr0jcn+7+TRPaqTny2+jMhQUesxTzqFel\nKFh25+l/0y2DCLPnO4SeRSJymqSLfCn0WT6FPY42AduUZsMceu2ZWXaZGXkSTt88\n/78C2rKpiXXanDyCPE/MOaIk9D8Dt/ZpKTOaycOarhsLkPEH9XyQ0Qt3WrJUNLYR\nLEfXX6TIa2OXYTSDWvzShBLgT8qa4sFjfPPQmkMlolnRSdLs7JNNqKjs+yX6UC0y\nNf0vgEGDwZf+TcEMzC35tFqnFDIEBgoDC3rWPA128fKj646YpLqGGxxxCRmfnYM6\nVzwOqL2ReJ5R5iQkyHDx2CRDCXORMssIGQUPseI++QKBgQD52ZoYlbG5EHKTqVls\nh2ppf/JWwT0To3F/WZCaXuzR2PQbEO3RCzxOl6WRg8W/YY2FvEiHUJMqckEcSfJh\n1mNdCzCVaFS7IHYAiJbrUDrixxzzbKR6P8Ik+ED5knmwTkRtTphzcRQrrXILZCdG\nhNt1TMt4mfpw1xIRsL/+rrNqKQKBgQDUIXtJjykn9iB3nciU5FZXYC1mOCV82Q2h\nrIMq5AXAS3FJik4zQXhDOX+71V1KRktV1XEHBqPsV3SsNY0goGy5ucIQiNqzU+rZ\nCHxdbxffWC+nDA47e4B2r2k4cb/jIo0g9n65S5/STAbQixCHTL/M5F9lE5B+fgj5\nasdIqBKbXQKBgCUBqQRZL8C0gfQDEl6z0/waWl+lMZG2FLqDHpru0m7mjolvwXnE\nC0OszHY4KVMGdPrI/4kjUxjnYWN6RG9fXMpMPP70PBCXZ0L++DOUZ5RtX4linx4I\nUY4+Qwl0O5f0j8gM6yG2LwGlKA4t4G9egE7od/6998083c1G+7kSUTq5AoGAUTVU\nHk/5AHxf54r229EiIKcIGkbKSyZI6qjBOi066me3QeD5mPOqV4nulXjUEvggJQbm\nEzt+i57bYoXJtkDT/rHXUj8iAl7Q3C88dQRvjigTbg7Wb/0Sq9zxGhOp0wlKH+Fd\nmBAUagyC21kxhapjDswqnOZFfbdANkOjcPQu010CgYBVd4auqWUyMMscA3T/DAio\nqMCekH+wqUKk4UOn7X+d1fBquXoeDuXzqmFIQF84wznsp9zOjZgTG7wLYHS0CTDi\nRnuFnPXBUtbcFUELlpffLQqxNTeVF4VgA+9TvkdgxuvIc9OSAZ2e4dBrSguPoy/E\nIEBIFblLtn7bMmXq9Uf4JA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "cheesecake@comp3820-digital-health.iam.gserviceaccount.com",
+  "client_id": "118355797799946970878",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cheesecake%40comp3820-digital-health.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

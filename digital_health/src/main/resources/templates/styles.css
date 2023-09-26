@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin-top: 78px; /* Ensure content starts below the fixed header */
+    padding: 20px; /* Add padding or other styles as needed */
+}
+
+.logo {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 78px; /* 设置logo的宽度 */
+    height: 78px; /* 设置logo的高度 */
+    align-items: center;
+    justify-content: center;
+    z-index: 102; /* 设置一个高的z-index以确保在其他元素之上 */
+}
+
+.header {
+    margin-left: 78px; /* 调整header的左边距以防止覆盖在logo上 */
+    background: linear-gradient(to right, #00AAB2, #355BAD);
+    height: 78px;
+    width: calc(100% - 78px); /* 减去logo的宽度以保持与视口宽度一致 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+}
+
+.vertical-stripe {
+    position: fixed;
+    top: 78px;
+    left: 0;
+    width: 78px; /* 与logo的宽度相同 */
+    height: 100%;
+    background: linear-gradient(to bottom, #4C4F5A, #31343E);
+    z-index: 100;
+}
+
+/* 图片按钮样式 */
+.inbox-button {
+    width: 78px; /* 与条带的宽度相同 */
+    height: 78px; /* 正方形按钮 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 78px; /* 位于logo正下方且紧挨着logo */
+    left: 0;
+    z-index: 101; /* 确保按钮位于条带之上 */
+    cursor: pointer;
+    text-decoration: none; /* 去掉默认链接样式 */
+}
+
+.inbox-button2 {
+    width: 78px; /* 与条带的宽度相同 */
+    height: 78px; /* 正方形按钮 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 154px; /* 位于logo正下方且紧挨着logo */
+    left: 0;
+    z-index: 101; /* 确保按钮位于条带之上 */
+    cursor: pointer;
+    text-decoration: none; /* 去掉默认链接样式 */
+}
+
+/* 图标样式，设置最大宽度为100%以保持等比例缩放 */
+.inbox-button img {
+    max-width: 100%;
+    max-height: 100%; /* 设置最大高度以防止图像超出按钮 */
+}
+
+/* 用于占位的空白元素 */
+.spacer {
+    flex-grow: 1; /* 自动填充剩余空间 */
+}
+
+
+.horizontal-line {
+    position: fixed;
+    top: 126px; /* 设置y坐标 */
+    left: 96px; /* 设置x坐标 */
+    width: 1167px; /* 设置线的长度 */
+    height: 2px; /* 设置线的粗度 */
+    background-color: #EFEFEF; /* 设置线的颜色 */
+    z-index: 103; /* 为了确保在其他元素之上 */
+}
+
+.text {
+    position: fixed;
+    top: 94px; /* 设置y坐标 */
+    left: 95px; /* 设置x坐标 */
+    font-family: "Inter", sans-serif; /* 设置字体类型 */
+    font-weight: bold; /* 设置粗细 */
+    font-size: 18px; /* 设置字号为 18 像素 */
+    color: black; /* 设置字体颜色 */
+    z-index: 103; /* 为了确保在其他元素之上 */
+}
+
+.text2 {
+    position: fixed;
+    top: 94px; /* 设置y坐标 */
+    left: 221.63px; /* 设置x坐标 */
+    font-family: "Inter", sans-serif; /* 设置字体类型 */
+    font-weight: bold; /* 设置粗细 */
+    font-size: 18px; /* 设置字号为 18 像素 */
+    color: #898B94; /* 设置字体颜色 */
+    z-index: 103; /* 为了确保在其他元素之上 */
+}
+
+.text3 {
+    position: fixed;
+    top: 94px; /* 设置y坐标 */
+    left: 404.88px; /* 设置x坐标 */
+    font-family: "Inter", sans-serif; /* 设置字体类型 */
+    font-weight: bold; /* 设置粗细 */
+    font-size: 18px; /* 设置字号为 18 像素 */
+    color: #898B94; /* 设置字体颜色 */
+    z-index: 103; /* 为了确保在其他元素之上 */
+}
+
+
+.element {
+    height: 45px;
+    margin-top: 18px; /* 间隔 */
+    position: fixed;
+}
+
+/* 其他样式如之前所示 */
+
+.custom-image {
+    position: fixed;
+    top: 22px; /* 距离最上边 27px */
+    right: 60px; /* 距离最右边 60px */
+}
+
+.custom-image img {
+    width: 14px; /* 调整宽度为 14px */
+    height: 9px; /* 调整高度为 9px */
+}
+
+.text4 {
+    position: fixed;
+    top: 22px; /* 距离最上边 27px */
+    right: 83px; /* 距离图片左方 9px */
+    font-family: "Inter", sans-serif; /* 字体类型 */
+    font-weight: 600; /* Semi bold 粗细 */
+    font-size: 14px; /* 字号为 14px */
+    color: white;
+    z-index: 104; /* 为了确保在其他元素之上 */
+}
+
+.text5 {
+    position: fixed;
+    top: 40px; /* 距离最上边 27px */
+    right: 83px; /* 距离图片左方 9px */
+    font-family: "Inter", sans-serif; /* 字体类型 */
+    font-weight: 400; /* Semi bold 粗细 */
+    font-size: 14px; /* 字号为 14px */
+    color: white;
+    z-index: 104; /* 为了确保在其他元素之上 */
+}
+
+.img-ask {
+    position: fixed;
+    top: 19px; /* 距离最上边 27px */
+    right: 300px; /* 距离最右边 60px */
+}
+
+.img-ask img {
+    width: 42px; /* 调整宽度为 14px */
+    height: 42px; /* 调整高度为 9px */
+}
+
+.img-notification {
+    position: fixed;
+    top: 19px; /* 距离最上边 27px */
+    right: 355px; /* 距离最右边 60px */
+}
+
+.img-notification img {
+    width: 42px; /* 调整宽度为 14px */
+    height: 42px; /* 调整高度为 9px */
+}
+
+/* 确保不超出页面边缘 */
+@media screen and (max-width: 15px) {
+    .element {
+        display: none;
+    }
+}
